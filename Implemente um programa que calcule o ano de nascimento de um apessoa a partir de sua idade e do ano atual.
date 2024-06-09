@@ -1,0 +1,8 @@
+# 50 - Implemente um programa que calcule o ano de nascimento de um apessoa a partir de sua idade e do ano atual.
+
+idade = int(input('Informe a sua idade: '))
+ano = int(input('Informe o ano atual: '))
+
+n = ano - idade
+
+print(f'O seu ano de nascimento é: {n}')
